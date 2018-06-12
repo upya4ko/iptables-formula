@@ -22,17 +22,17 @@ Installs iptables, iptables-persistent and add rules from pillar
 Installs iptables and iptables-persistent.
 
 To remove rule from host set enabled to False:
-```
-iptables:
-  rules:
-    ssh:
-      enabled: False
-      table: filter
-      dport: 22
-      jump: ACCEPT
-      chain: INPUT
-      protos: 
-        - tcp
+*********************************************
+::
+  iptables:
+    rules:
+      ssh:
+        enabled: False
+        table: filter
+        dport: 22
+        jump: ACCEPT
+        chain: INPUT
+        protos: 
+          - tcp
 
-```
 
