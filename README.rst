@@ -1,5 +1,5 @@
 ===============
-itables-formula
+iptables-formula
 ===============
 
 Simple formula to configure iptables (only basic functions).
