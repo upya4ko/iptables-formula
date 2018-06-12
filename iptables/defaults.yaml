@@ -1,0 +1,5 @@
+iptables:
+  pkgs:
+    - iptables-persistent
+    - iptables
+  install: True
