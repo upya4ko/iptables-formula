@@ -22,7 +22,6 @@ Installs iptables, iptables-persistent and add rules from pillar
 Installs iptables and iptables-persistent.
 
 To remove rule from host set enabled to False:
-*********************************************
 ::
   iptables:
     rules:
